@@ -37,7 +37,7 @@ export function App() {
     if (contacts.length > 0) {
       localStorage.setItem('localUserContacts', JSON.stringify(contacts));
     }
-  }, [contacts.length]);
+  }, [contacts]);
 
   // console.log(localUserContacts);
 
